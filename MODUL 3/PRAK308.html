@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <form>
+            <table border="1" bgcolor="gray" width="450" Align="center">
+            <tr bgcolor="skyblue" Align="center">
+                <td colspan="2">
+                    <font face="arial" font size="6" align="center" color="red"> <b>Pendaftaran Kursus</b> </font>
+                    <br> <br>
+                </td>   
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <font face="arial" font size="4" > <b>Data Diri</b> </font>
+                    <br> </br>
+                    
+                    <font type=arial size ="3" >
+                    Nama<input type = "text" name = "nama" style="margin-left: 123px;">
+                    <br>
+                    Nim<input type = "text" name = "nim" value="" style="margin-left: 133px;">
+                    <br>
+                    E-mail<input type="email" name="E-mail" style="margin-left: 117px;">
+                    <br>
+                    Tanggal Lahir <input type="date" style="margin-left: 67px;"> 
+                    <br>
+                    Jenis Kelamin
+                    <input type="radio" name="jenis_kelamin" value="L" style="margin-left: 67px;"> Laki-laki
+                    <br>
+                    <input type="radio" name="jenis_kelamin" value="P"style="margin-left: 162px;"> Perempuan
+                    <br>
+                    Pilih Program Kursus
+                    <input type="checkbox" name="C#" value="C#" style="margin-left: 19px;"> C#
+                    <br>
+                    <input type="checkbox" name="Java" value="Java" style="margin-left: 162px;"> Java
+                    <br>
+                    <input type="checkbox" name="SQL" value="SQL" style="margin-left: 162px;"> SQL
+                    <br>
+                    <input type="checkbox" name="HTML dan PHP" value="HTML dan PHP" style="margin-left: 162px;"> HTML dan PHP
+                    <br>
+                    Pilihan Hari/Jam Kursus
+                    <select name="Hari/Jam Kursus">
+                    <option value="=SR"> Senin - Rabu/09.00 - 11.00 </option>
+                    <option value="KS"> Kamis - Sabtu/08.00 - 10.00</option>
+                    </select>
+                    <br>
+                 </td>
+             </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+            <tr bgcolor=#fa8072>
+                <td>         
+            Komentar Anda
+            <br>
+            <textarea name="Komentar Anda" cols="40" rows="4" align="center"> 
+            </textarea>
+            <br>
+            <input type="reset" value="Reset" name="Reset">
+            <input type="submit" value="Submit" name="Submit">
+            <input type="button" value="Cancel" name="Button">
+            <br> <br>
+                </td>
+            </tr>
+        </table>
+        </font>
+    </form>
+    </body>
+</html>
